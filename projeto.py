@@ -19,6 +19,8 @@ while True:  # loop infinito para o atendimento das solicitações
         print('Catálogo de guinchos disponíveis:')
         for guincho in guinchos:
             print(guincho)
+        #else:
+            #print('Opção inválida. Tente novamente.')
 
         # solicita o número do guincho desejado
         numero = input('Digite o número do guincho desejado: ')
